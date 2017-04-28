@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFoodsActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ID Comida"
+        android:id="@+id/textView5" />
+
+    <EditText android:id="@+id/food_id"
+        android:inputType="number"
+        android:layout_x="150dp"
+        android:layout_y="150dp"
+        android:layout_width="359dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nombre"
+        android:id="@+id/tv_food_name" />
+
+    <EditText android:id="@+id/food_name"
+        android:inputType="text"
+        android:layout_x="150dp"
+        android:layout_y="150dp"
+        android:layout_width="359dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Precio"
+        android:id="@+id/tv_food_price" />
+
+    <EditText android:id="@+id/food_price"
+        android:inputType="number"
+        android:layout_x="150dp"
+        android:layout_y="150dp"
+        android:layout_width="359dp"
+        android:layout_height="40dp"/>
+
+    <Button	  android:id="@+id/btnAdd"
+        android:text="Agregar"
+        android:layout_x="30dp"
+        android:layout_y="200dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+    <Button	  android:id="@+id/btnDelete"
+        android:text="Borrar"
+        android:layout_x="30dp"
+        android:layout_y="200dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+    <Button	  android:id="@+id/btnEdit"
+        android:text="Editar"
+        android:layout_x="30dp"
+        android:layout_y="200dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+    <Button	  android:id="@+id/btnViewAll"
+        android:text="Ver Todas"
+        android:layout_x="30dp"
+        android:layout_y="200dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"/>
+
+</LinearLayout>
